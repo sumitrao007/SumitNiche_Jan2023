@@ -1,0 +1,59 @@
+Last Lecture
+1 Vscode Overview
+	
+2 What is typescript
+	- typescript is superset of js 
+	- It is type lang 
+	typescript=ecma standard+ ecma version(js) + additional features 
+	- .ts file 
+3 what is tsc
+	tsc compiler => typescript compiler 
+		it transcompile ur .ts file into .js file 		
+4 simple Program
+	demo1.ts
+	console.log("Hello world");
+	console.log('Hello world');
+	console.log(`Hello world`);
+	tsc demo1.ts & node demo1.js
+	
+5 variable
+	var a1;
+	
+6 data type 
+number,string,boolean,any, void 
+null & undefined
+7 literal 
+	var a1:number|string;
+	var a2:10|boolean
+	a2=10;
+	a2=true;
+	var a1:number=10;
+	var a2:string;
+	var a1:any;
+	
+	
+
+Today Lecture
+1 Type assertion	
+2 operators
+3 control statement
+4 loop statement
+5 var vs let const 
+6 functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
