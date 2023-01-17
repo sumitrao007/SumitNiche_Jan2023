@@ -1,0 +1,104 @@
+Last Lecture
+1 Type assertion
+	//any,object,unknown
+	1 angle bracket 
+		var a:any;
+		var temp=(<string> a);
+		
+	2 as syntax
+		var temp=( a as string );
+2 operators
+	airthmathic,logical,bitwuise,ternary,unary,assignment
+	== ,===(it checks ur value as well as data type )
+3 control statement
+	if(count<5){
+	....
+	}
+	
+	switch(choice){
+		case 1:....
+			break;
+		case 2 : ...
+			break;
+		default : ...
+				break;
+				
+	}
+4 loop statement
+	
+	while(count!=5){
+		....
+		count--;
+	}
+	
+	do{
+	....
+	}while(count!=0)
+5 var vs let const 
+	var => its a global scope
+	let => within its nearest block
+	const => local as well as global 
+	
+	for(let i=0;i<4;i++){
+	....
+	}
+	
+	const pi=3.14;
+	
+	
+6 functions
+	1 functions without parameter & without return type 
+		function add1(){
+			consoe.log(...)
+		}
+		
+		add1();
+	2  functions with parameter & without return type 
+	function add2(a:number,b:number){
+		consoe.log(a+b);
+	}
+	
+	add2(2,3);
+	
+	3  functions without parameter & with return type 
+		
+		function add3():number{
+			return (5+5)
+		}
+		
+		let res=add3();
+		...
+	4 functions with parameter & with return type 
+		function add4(a:number,b:number):number{
+			return (a+b)
+		}
+		
+		consoe.log("Addition "+add4(4,5));
+
+Today Lecture
+1 anonymous functions
+2 fat arrow functions
+3 optional parameter functions
+4 default parameter functions
+5 basics of array
+5 join method
+6 forEach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
